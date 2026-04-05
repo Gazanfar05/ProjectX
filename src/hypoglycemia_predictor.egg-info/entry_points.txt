@@ -1,0 +1,2 @@
+[console_scripts]
+hypo-predict = hypoglycemia_predictor.__main__:main

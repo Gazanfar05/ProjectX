@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: hypoglycemia-predictor
+Version: 0.1.0
+Summary: AI system that predicts hypoglycaemic episodes for diabetics by factoring in glucose readings, medication schedules, lifestyle patterns, and time-of-day trends.
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas>=2.0
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: joblib>=1.3
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+
+# ProjectX
+An AI system for diabetics that goes beyond glucose readings — factoring in medication schedules, daily lifestyle patterns, and time-of-day trends to predict when a hypoglycaemic episode is likely and alert users before it happens.
